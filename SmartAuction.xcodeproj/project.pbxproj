@@ -10,9 +10,14 @@
 		0B4838672B873F4700112D01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4838662B873F4700112D01 /* AppDelegate.swift */; };
 		0B4838692B873F4700112D01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4838682B873F4700112D01 /* SceneDelegate.swift */; };
 		0B48386B2B873F4700112D01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B48386A2B873F4700112D01 /* ViewController.swift */; };
-		0B48386E2B873F4700112D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B48386C2B873F4700112D01 /* Main.storyboard */; };
 		0B4838702B873F4900112D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B48386F2B873F4900112D01 /* Assets.xcassets */; };
 		0B4838732B873F4900112D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B4838712B873F4900112D01 /* LaunchScreen.storyboard */; };
+		0B48387C2B87405400112D01 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 0B48387B2B87405400112D01 /* SwiftSoup */; };
+		0B48387F2B8740BE00112D01 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0B48387E2B8740BE00112D01 /* SnapKit */; };
+		0B4838822B8740CD00112D01 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0B4838812B8740CD00112D01 /* Alamofire */; };
+		0B48388B2B8B5BA400112D01 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B48388A2B8B5BA400112D01 /* File.swift */; };
+		0B48388E2B8B5BE600112D01 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 0B48388D2B8B5BE600112D01 /* Realm */; };
+		0B4838902B8B5BE600112D01 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0B48388F2B8B5BE600112D01 /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +25,10 @@
 		0B4838662B873F4700112D01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B4838682B873F4700112D01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0B48386A2B873F4700112D01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0B48386D2B873F4700112D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B48386F2B873F4900112D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B4838722B873F4900112D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B4838742B873F4900112D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B48388A2B8B5BA400112D01 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B4838822B8740CD00112D01 /* Alamofire in Frameworks */,
+				0B48387C2B87405400112D01 /* SwiftSoup in Frameworks */,
+				0B48388E2B8B5BE600112D01 /* Realm in Frameworks */,
+				0B4838902B8B5BE600112D01 /* RealmSwift in Frameworks */,
+				0B48387F2B8740BE00112D01 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,10 +69,10 @@
 				0B4838662B873F4700112D01 /* AppDelegate.swift */,
 				0B4838682B873F4700112D01 /* SceneDelegate.swift */,
 				0B48386A2B873F4700112D01 /* ViewController.swift */,
-				0B48386C2B873F4700112D01 /* Main.storyboard */,
 				0B48386F2B873F4900112D01 /* Assets.xcassets */,
 				0B4838712B873F4900112D01 /* LaunchScreen.storyboard */,
 				0B4838742B873F4900112D01 /* Info.plist */,
+				0B48388A2B8B5BA400112D01 /* File.swift */,
 			);
 			path = SmartAuction;
 			sourceTree = "<group>";
@@ -83,6 +93,13 @@
 			dependencies = (
 			);
 			name = SmartAuction;
+			packageProductDependencies = (
+				0B48387B2B87405400112D01 /* SwiftSoup */,
+				0B48387E2B8740BE00112D01 /* SnapKit */,
+				0B4838812B8740CD00112D01 /* Alamofire */,
+				0B48388D2B8B5BE600112D01 /* Realm */,
+				0B48388F2B8B5BE600112D01 /* RealmSwift */,
+			);
 			productName = SmartAuction;
 			productReference = 0B4838632B873F4700112D01 /* SmartAuction.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,12 @@
 				Base,
 			);
 			mainGroup = 0B48385A2B873F4700112D01;
+			packageReferences = (
+				0B48387A2B87405400112D01 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				0B48387D2B8740BE00112D01 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				0B4838802B8740CD00112D01 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				0B48388C2B8B5BE600112D01 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 0B4838642B873F4700112D01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +150,6 @@
 			files = (
 				0B4838732B873F4900112D01 /* LaunchScreen.storyboard in Resources */,
 				0B4838702B873F4900112D01 /* Assets.xcassets in Resources */,
-				0B48386E2B873F4700112D01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B48386B2B873F4700112D01 /* ViewController.swift in Sources */,
+				0B48388B2B8B5BA400112D01 /* File.swift in Sources */,
 				0B4838672B873F4700112D01 /* AppDelegate.swift in Sources */,
 				0B4838692B873F4700112D01 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +170,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0B48386C2B873F4700112D01 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B48386D2B873F4700112D01 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0B4838712B873F4900112D01 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +312,6 @@
 				INFOPLIST_FILE = SmartAuction/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +339,6 @@
 				INFOPLIST_FILE = SmartAuction/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +376,69 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0B48387A2B87405400112D01 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.1;
+			};
+		};
+		0B48387D2B8740BE00112D01 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		0B4838802B8740CD00112D01 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		0B48388C2B8B5BE600112D01 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.47.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B48387B2B87405400112D01 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B48387A2B87405400112D01 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		0B48387E2B8740BE00112D01 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B48387D2B8740BE00112D01 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		0B4838812B8740CD00112D01 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B4838802B8740CD00112D01 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		0B48388D2B8B5BE600112D01 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B48388C2B8B5BE600112D01 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		0B48388F2B8B5BE600112D01 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B48388C2B8B5BE600112D01 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0B48385B2B873F4700112D01 /* Project object */;
 }
